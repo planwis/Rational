@@ -14,9 +14,12 @@ class Rational {
 
     Rational(long numerator, long denominator) throws Illegal { 
         // to be completed
+        this.numerator = numerator;
+        this.denominator = denominator;
+        simplestForm();
     } 
 
-    // find the reduce form 
+    // find the reduced form
     private void simplestForm() { 
         long computeGCD; 
         computeGCD = GCD(Math.abs(numerator), denominator); 
@@ -46,6 +49,9 @@ class Rational {
      */
     public void subtract(Rational x) {
         // to be completed
+        numerator = (numerator * x.denominator) - (x.numerator * denominator);
+        denominator = (denominator * x.denominator);
+        simplestForm();
     }
 
     /***
@@ -54,6 +60,9 @@ class Rational {
      */
     public void multiply(Rational x) { 
         // to be completed
+        numerator = (numerator * x.numerator);
+        denominator = (denominator * x.denominator);
+        simplestForm();
     }
 
     /***
@@ -62,6 +71,9 @@ class Rational {
      */
     public void divide(Rational x) {
         // to be completed
+        numerator = (numerator * x.denominator);
+        denominator = (denominator * x.numerator);
+        simplestForm();
     }
 
     /***
@@ -71,7 +83,12 @@ class Rational {
      */
     public boolean equals(Object x) {
         // to be completed
-        return true; // TODO: This needs to be modified.
+        // find the simplest form of this Rational
+        simplestForm();
+        // find the simplest form of Object x
+        Rational rationalX = (Rational) x;
+        rationalX.simplestForm();
+        return (this.numerator == rationalX.numerator && this.denominator == rationalX.denominator);
     }
 
     /***
@@ -82,7 +99,20 @@ class Rational {
      */
     public long compareTo(Object x) {
         // to be completed
-        return -1; // TODO: this needs to be modified.
+        // find the simplest form of this Rational
+        simplestForm();
+        // find the simplest form of Object x
+        Rational rationalX = (Rational) x;
+        rationalX.simplestForm();
+
+        if (this.numerator * rationalX.denominator > rationalX.numerator * this.denominator) {
+            return 1;
+        } else if (this.numerator * rationalX.denominator == rationalX.numerator * this.denominator) {
+            return 0;
+        }
+        else {
+            return -1;
+        }
     }
 
     /***
@@ -91,7 +121,8 @@ class Rational {
      */
     public String toString() { 
         // to be completed
-        return ""; // TODO: This needs to be modified.
+        simplestForm();
+        return this.numerator + "/" + this.denominator;
     }
 
     public static void main(String[] args) {

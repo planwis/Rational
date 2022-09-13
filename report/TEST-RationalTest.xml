@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Wishs-MacBook-Air.local" name="RationalTest" skipped="0" tests="7" time="0.196" timestamp="2022-09-13T16:00:11">
+  <properties>
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.boot.library.path" value="/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib" />
+    <property name="java.vm.version" value="25.345-b01" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib" />
+    <property name="gopherProxySet" value="false" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="BellSoft" />
+    <property name="java.vendor.url" value="https://bell-sw.com/" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="TH" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="/Users/planwis/Mahidol/QA/Rational" />
+    <property name="java.runtime.version" value="1.8.0_345-b01" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="basedir" value="/Users/planwis/Mahidol/QA/Rational" />
+    <property name="java.endorsed.dirs" value="/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/endorsed" />
+    <property name="os.arch" value="aarch64" />
+    <property name="java.io.tmpdir" value="/var/folders/1m/yg1xdn393xl_b4tvxmnw_2lc0000gn/T/" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.library.path" value="/Users/planwis/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="12.5.1" />
+    <property name="ant.file" value="/Users/planwis/Mahidol/QA/Rational/build.xml" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/planwis" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/lib/ant/lib/ant.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/lib/tools.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar" />
+    <property name="user.name" value="planwis" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/planwis/Mahidol/QA/Rational/build.xml test" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_345" />
+    <property name="java.ext.dirs" value="/Users/planwis/Library/Java/Extensions:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="sun.boot.class.path" value="/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/resources.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/rt.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/sunrsasign.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/jsse.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/jce.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/charsets.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/lib/jfr.jar:/Users/planwis/Library/Java/JavaVirtualMachines/liberica-1.8.0_345/jre/classes" />
+    <property name="java.vendor" value="BellSoft" />
+    <property name="file.separator" value="/" />
+    <property name="java.vendor.url.bug" value="https://bell-sw.com/support" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="ant.file.type" value="file" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="sun.cpu.isalist" value="" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.003" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
